@@ -1,0 +1,193 @@
+.construction__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.construction__container-navbar {
+    width: 100%;
+    /* border: 2px solid red ; */
+    /* height: 150px; */
+}
+.construction__container-hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    height: 70vh;
+    max-height: 700px;
+    background-image: url('/construction-bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.construction__container-hero > h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+    color: rgb(83, 83, 92)
+}
+.construction__container-hero > p {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: normal;
+    color: rgb(36, 53, 207);
+    font-family: sans-serif;
+
+}
+.construction__container-section1 {
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    margin-inline: auto;
+    gap: 15px;
+    align-items: center;;
+    margin-bottom: 20px;
+}
+.construction__container-section1_left {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    width: 50%;
+    gap: 20px;
+}
+.construction__container-section1_left > h2 {
+    font-size: 35px;
+    font-weight: 600;
+    /* color: #1e1d1d; */
+    color:rgb(36, 53, 207);
+
+    font-family: sans-serif;
+}
+.construction__container-section1_left > p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #1e1d1d;
+    font-family: Arial;
+}
+.construction__container-section1_right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 300px;
+    /* gap: 20px; */
+}
+.construction__container-section1_right > h3 {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: orange;
+    color: #ffffff;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.construction__container-section1_right > img {
+    width: 100%;
+}
+.construction__container-seciton2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-inline: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    gap: 40px;
+    background-color: #efefef;
+}
+.construction__container-section2_top {
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+.construction__container-section2_top > h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(36, 53, 207)
+}
+.construction__container-section2_top > p {
+    font-size: 18px;
+    font-weight: 300px;
+    color:#1e1d1d;
+}
+.construction__container-section2_bottom {
+    width: 90%;
+    margin-inline: auto;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.construction__container-section2_bottom > h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(36, 53, 207);
+}
+.construction--questions {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.strong--text {
+    display: flex;
+    font-size: 25px;
+    /* height: 30px; */
+    flex-direction: column;
+    color:rgb(36, 53, 207);
+    /* color: ; */
+    /* font-weight: 900; */
+}
+.question--bullet {
+    width: 30px;
+    height: 30px;
+    color:rgb(36, 53, 207);
+    margin-top: 8px;
+    font-size: 30px;
+}
+.construction--questions >p {
+    color:#1e1d1d;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media screen and (max-width: 1024px ) {
+    .construction__container-section1_left {
+        min-width: 500px;   
+    }
+    .construction__container-hero {
+        max-height: 500px;   
+    }
+}
+@media screen and (max-width: 768px ) {
+    .construction__container-section1 {
+        flex-direction: column;
+    }
+    .construction__container-section1_left,
+    .construction__container-section1_right {
+        width: 100%;
+    }
+    .construction__container-hero > h1 {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .construction__container-hero > p {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+.construction__container-section1_left {
+    min-width: 300px;
+}
+.construction__container-hero > h1 {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.construction__container-hero > p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+}
