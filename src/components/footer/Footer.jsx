@@ -9,6 +9,7 @@ import { MdCopyright } from "react-icons/md"
 import { IoLogoBuffer } from "react-icons/io"
 
 import "./Footer.css"
+import Link from "next/link";
 
 
 function Footer() {
@@ -35,20 +36,29 @@ function Footer() {
           <div className="footer__container-top_section2">
             <h3>Services</h3>
             <div className="section2-body">
-              <p>New Roofs</p>
-              <p>Renovations</p>
-              <p>Flat Roofs</p>
-              <p>Tiled Roofs</p>
+              <Link className="hover:underline" href="/construction">
+                Construction
+              </Link>
+              <Link className="hover:underline" href="/bitumen-roofing">
+                Bitumen and roofing insulation
+              </Link>
+              <Link className="hover:underline" href="/renovations">
+                Renovations{" "}
+              </Link>
+              <Link className="hover:underline" href="/repairs">
+                Leakages and Repairs{" "}
+              </Link>
             </div>
           </div>
           <div className="footer__container-top_section2">
-            <h3>Get Started</h3>
+            <h3>Policies</h3>
             <div className="section2-body">
-              <p>Contact</p>
-              <p>About us</p>
-              <p>Portfolio</p>
-              <p>Reviews</p>
-              <p>Free quote</p>
+              <Link href="/privacy-policy" className="hover:underline">
+                Privacy
+              </Link>
+              <Link href="/terms-of-service" className="hover:underline">
+                Terms of service
+              </Link>
             </div>
           </div>
           <div className="footer__container-top_section4">
