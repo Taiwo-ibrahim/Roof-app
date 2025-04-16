@@ -18,8 +18,8 @@ export default function Home(props) {
           <div className="home__container-body_left">
             <h4>Van Ommen Roof Maintenance</h4>
             <h1>
-              Roofer <br />
-              sloping & flat roofs{" "}
+              Roofer for <br />
+              Sloping & Flat Roofs{" "}
             </h1>
             <p>
               specialized in installing, renovating and repairing flat and
@@ -50,66 +50,55 @@ export default function Home(props) {
 
         <div className="home__body-group2">
           <div className="home__body-group2_left">
-            <h4>Van Ommen Roof Maintenance</h4>
-            <h2>
-              We are a full-service roofing company for individuals and
-              companies in Tilburg, Breda, Rosmalen, Den Bosch, Nijmegen,
-              Eindhoven and the surrounding area.
+            <h4 className=" text-4xl font-bold">Tempodak</h4>
+            <h2 className="flex text-lg font-bold font-[#3a3a3a] ">
+              Whether it's insulation, waterproofing, or a complete roof
+              renovation—you're in good hands with Tempodak. No roof is too high
+              or too challenging for us. We thrive on challenges and deliver
+              customized solutions for every need. Our experienced team of
+              roofers combines top-quality work with a personal approach.
             </h2>
             <div className="home__body-group2_left-chekpoints">
               <p>
                 <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
+                Craftsmanship & Expertise – Years of experience in roof
+                insulation, renovations, and waterproof solutions.
               </p>
               <p>
                 <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
+                Direct Contact – For emergencies, call the owner directly. No
+                waiting times—just fast assistance.
               </p>
               <p>
                 <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
+                Customer-Focused & Reliable – We treat your roof as if it were
+                our own home.
               </p>
               <p>
                 <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
-              </p>
-              <p>
-                <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
-              </p>
-              <p>
-                <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
-              </p>
-              <p>
-                <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
-              </p>
-              <p>
-                <FaCheck className="fa-check" />
-                We are members of various trade associations that supervise
+                Always Going the Extra Mile – We go above and beyond for
+                flawless results, delivered at speed.
               </p>
             </div>
             <button className="inspection-btn">
               Free roof inspection <br />
               <span>with professional advice </span>
             </button>
-            <p>
+            {/* <p>
               The contact with you as
               <strong> a customer</strong> is very important to us. It goes
               without saying that your wishes are <strong>central</strong>, such
               as your budget and the requirements you set for the work. We work
               meticulously and <strong>safely</strong> and try to keep the
               nuisance in your home to an absolute minimum.{" "}
-            </p>
+            </p> */}
             <p>
-              The contact with you as
-              <strong> a customer</strong> is very important to us. It goes
-              without saying that your wishes are <strong>central</strong>, such
+              A strong roof starts here. Contact us for a no-obligation quote or
+              call immediately for urgent issues!
             </p>
           </div>
           <div className="home__body-group2_right">
-            <img src="/bg-02.webp" alt="" />
+            <img className="" src="/bg-02.jpg" alt="" />
           </div>
         </div>
 
@@ -173,7 +162,7 @@ export default function Home(props) {
 
         <div className="home__body-group6">
           <div className="home__body-group6_left">
-            <img src="/bg-01.jpg" alt="" />
+            <img src="/bg-06.jpg" alt="" />
           </div>
           <div className="home__body-group6_right">
             <h2>Satisfied customers</h2>
